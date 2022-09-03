@@ -1,6 +1,6 @@
 # Hardhat Fund Me Project
 
-This project is created as part of this (tutorial)[https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=37266s] with personal comments added for better unerstanding and recollection. Below topics are covered as part of this: 
+This project is created as part of this [tutorial](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=37266s) with personal comments added for better unerstanding and recollection. Below topics are covered as part of this: 
 
 1. Deploying smart contract using hardhat deploy. 
 2. Dynamic way of changing external data feeds based on network. 
