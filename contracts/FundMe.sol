@@ -27,7 +27,7 @@ contract FundMe {
     mapping(address => uint256) private s_addressToAmountFunded;
 
     //constant, immutable keywords [GAS optimization]
-    // using constant keyword makes the variable to take the storage slot
+    // using constant keyword makes the variable not to take the storage slot
     // instead of storing in storage slot they are stored in byte code of the contract thuis improving the gas used. 
     uint256 public constant MINIMUM_USD = 1 * 1e18;
 
@@ -82,7 +82,7 @@ contract FundMe {
      * @notice This function is used to fund this contract
      */
     //payable keyword marks the function to read from value. 
-    //payable is used to send native token to the contract (contract is intself an address/account in the blockchain). 
+    //payable is used to send native token to the contract (contract is initself an address/account in the blockchain). 
     function fund() public payable {
         //require if like a condition that needs to me met for the operation to succeed. 
         //if the condition fails, the transaction is canceled i.e is reverted.         
